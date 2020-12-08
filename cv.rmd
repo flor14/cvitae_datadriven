@@ -101,14 +101,12 @@ CV %<>% print_text_block("intro")
 ```
 
 
-
 Formación Académica {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %<>% print_section('education')
 ```
-
 
 
 Experiencia en Investigación {data-icon=laptop}
@@ -139,14 +137,21 @@ Publicaciones en Congresos (selección)   {data-icon=newspaper}
 CV %<>% print_section('congresos')
 ```
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+Experiencia en Docencia {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+
+```{r}
+CV %<>% print_section('teaching_positions')
+```
+
+Formación de Recursos Humanos {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('rrhh')
+```
+
 
 Cursos y Certificaciones (selección) {data-icon=suitcase}
 --------------------------------------------------------------------------------
@@ -161,30 +166,6 @@ CV %<>% print_text_block('cursos')
 CV %<>% print_section('cursos')
 ```
 
-Experiencia en Docencia {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
-
-
-```{r}
-CV %<>% print_section('teaching_positions')
-```
-
-
-Formación de Recursos Humanos {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('rrhh')
-```
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 Charlas  {data-icon=newspaper}
 --------------------------------------------------------------------------------
@@ -197,9 +178,6 @@ CV %<>% print_text_block('charlas')
 CV %<>% print_section('charlas')
 ```
 
-<br>
-
-
 Organización de Eventos de CyT {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
@@ -207,15 +185,6 @@ Organización de Eventos de CyT {data-icon=chalkboard-teacher}
 ```{r}
 CV %<>% print_section('eventos_cyt')
 ```
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 Comunidades  {data-icon=laptop}
 --------------------------------------------------------------------------------
@@ -230,14 +199,12 @@ CV %<>% print_text_block('teaching_experience_aside')
 CV %<>% print_section('comunidades')
 ```
 
-
 Extensión {data-icon=book}
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %<>% print_section('extension')
 ```
-
 
 Otros Antecedentes {data-icon=chart-line}
 --------------------------------------------------------------------------------
