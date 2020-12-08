@@ -1,8 +1,10 @@
 Id used for finding text block,Contents of text block. Supports markdown formatting.
 loc,text
-intro,"I have made [visualizations viewed by hundreds of thousands of people](https://www.nytimes.com/interactive/2016/08/26/us/college-student-migration.html), [sped up query times for 25 terabytes of data by an average of 4,800 times](https://livefreeordichotomize.com/2019/06/04/using_awk_and_r_to_parse_25tb/), and built [packages for R](https://github.com/nstrayer/shinysense) that let you [do magic](http://nickstrayer.me/dataDayTexas/).
+intro,"Soy ecotoxicóloga y especializada en Evaluación de Riesgo. Tengo experiencia analizando [bases de datos toxicológicas](https://joss.theoj.org/papers/10.21105/joss.00785) de organismos acuáticos así como en el uso de [modelos que simulan el destino ambiental de los plaguicidas](https://www.sciencedirect.com/science/article/pii/S0048969719342159). 
 
-Currently searching for a position that allows me to build tools leveraging a combination of visualization, machine learning, and software engineering to help people explore and understand their data in new and useful ways."
-industy_experience_aside,I have worked in a variety of roles ranging from journalist to software engineer to data scientist. I like collaborative environments where I can learn from my peers. 
-teaching_experience_aside,I am passionate about education. I believe that no topic is too complex if the teacher is empathetic and willing to think about new methods of approaching task. 
-data_science_writing_aside,I regularly blog about data science and visualization on my blog [LiveFreeOrDichotomize.](https://livefreeordichotomize.com/)
+Me encanta programar. Creo que tanto el desarrollo de software y las bases de datos que se producen a la par de nuestras investigaciones deberían tener el mismo nivel de reconocimiento y  calidad que un artículo científico. 
+"
+cursos,"Además de contar con un título de grado en Educación en Biología, complemente esa formación con varios cursos sobre enseñanza de la programación. He dictado diversos talleres y charlas de R en diferentes congresos y eventos. "
+teaching_experience_aside,"Soy organizadora de diferentes comunidades y eventos científicos. Me gusta aprender de otros, construir redes, comunicar y trabajar en equipo."
+data_science_writing_aside,"Actualmente me encuentro enfocada en publicar el software y los datos de mis artículos haciendo énfasis en la reproducibilidad computacional, tal como señalé en mi ultima charla."
+otros,"No solo he usado R para análisis de datos, desarrollo de aplicaciones web con {Shiny} y paquetes de R para mi investigación. También tuve la experiencia de poder armar tutoriales tanto con R gracias al paquete {learnR} y con otro framework."

@@ -69,12 +69,12 @@ CV %>% print_contact_info()
 
 
 
-Language Skills {#skills}
---------------------------------------------------------------------------------
+<!-- Language Skills {#skills} -->
+<!-- -------------------------------------------------------------------------------- -->
 
-```{r}
-CV %>% print_skill_bars()
-```
+<!-- ```{r} -->
+<!-- CV %>% print_skill_bars() -->
+<!-- ``` -->
 
 
 
@@ -119,40 +119,6 @@ CV %<>% print_section('research_positions')
 ```
 
 
-
-Cursos de postgrado y certificaciones {data-icon=suitcase}
---------------------------------------------------------------------------------
-
-::: aside
-```{r}
-CV %<>% print_text_block('industy_experience_aside')
-```
-:::
-
-```{r}
-CV %<>% print_section('cursos')
-```
-
-<!-- These breaks just force a new page so section doesnt get cut off -->
-<br>
-<br>
-<br>
-
-Experiencia en Docencia {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
-
-::: aside
-```{r}
-CV %<>% print_text_block('teaching_experience_aside')
-```
-:::
-
-```{r}
-CV %<>% print_section('teaching_positions')
-```
-
-
-
 Publicaciones Científicas en Revistas Internacionales  {data-icon=chart-line}
 --------------------------------------------------------------------------------
 
@@ -163,10 +129,8 @@ CV %<>% print_text_block('data_science_writing_aside')
 :::
 
 ```{r}
-CV %<>% print_section('publicaciones')
+CV %<>% print_section('data_science_writing')
 ```
-
-
 
 Publicaciones en Congresos (selección)   {data-icon=newspaper}
 --------------------------------------------------------------------------------
@@ -175,18 +139,61 @@ Publicaciones en Congresos (selección)   {data-icon=newspaper}
 CV %<>% print_section('congresos')
 ```
 
-
-<br>
-<br>
-
-
-Comunidades  {data-icon=newspaper}
+Cursos y Certificaciones {data-icon=suitcase}
 --------------------------------------------------------------------------------
+
+::: aside
+```{r}
+CV %<>% print_text_block('cursos')
+```
+:::
+
+```{r}
+CV %<>% print_section('cursos')
+```
+
+Experiencia en Docencia {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+
+```{r}
+CV %<>% print_section('teaching_positions')
+```
+
+
+Formación de Recursos Humanos {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('rrhh')
+```
+
+Charlas  {data-icon=newspaper}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('charlas')
+```
+
+
+Organización de Eventos de CyT {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('eventos_cyt')
+```
+
+Comunidades  {data-icon=laptop}
+--------------------------------------------------------------------------------
+::: aside
+```{r}
+CV %<>% print_text_block('teaching_experience_aside')
+```
+:::
 
 ```{r}
 CV %<>% print_section('comunidades')
 ```
-
 
 
 Extensión {data-icon=book}
@@ -196,20 +203,17 @@ Extensión {data-icon=book}
 CV %<>% print_section('extension')
 ```
 
-Formación de Recursos Humanos {data-icon=book}
+
+Otros Antecedentes {data-icon=chart-line}
 --------------------------------------------------------------------------------
-
+::: aside
 ```{r}
-CV %<>% print_section('rrhh')
+CV %<>% print_text_block('otros')
 ```
-
-Otros Antecedentes {data-icon=book}
---------------------------------------------------------------------------------
-
+:::
 ```{r}
-CV %<>% print_section('eventos_cyt')
+CV %<>% print_section('otros')
 ```
-
 
 
 ```{r}
