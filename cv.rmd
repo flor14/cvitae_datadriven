@@ -119,7 +119,7 @@ CV %<>% print_section('research_positions')
 ```
 
 
-Publicaciones Científicas en Revistas Internacionales  {data-icon=chart-line}
+Publicaciones Científicas en Revistas Internacionales (últimos 3 años) {data-icon=chart-line}
 --------------------------------------------------------------------------------
 
 ::: aside
@@ -139,7 +139,16 @@ Publicaciones en Congresos (selección)   {data-icon=newspaper}
 CV %<>% print_section('congresos')
 ```
 
-Cursos y Certificaciones {data-icon=suitcase}
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+Cursos y Certificaciones (selección) {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 ::: aside
@@ -168,23 +177,49 @@ Formación de Recursos Humanos {data-icon=chalkboard-teacher}
 CV %<>% print_section('rrhh')
 ```
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 Charlas  {data-icon=newspaper}
 --------------------------------------------------------------------------------
-
+::: aside
+```{r}
+CV %<>% print_text_block('charlas')
+```
+:::
 ```{r}
 CV %<>% print_section('charlas')
 ```
+
+<br>
 
 
 Organización de Eventos de CyT {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
+
 ```{r}
 CV %<>% print_section('eventos_cyt')
 ```
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 Comunidades  {data-icon=laptop}
 --------------------------------------------------------------------------------
+
 ::: aside
 ```{r}
 CV %<>% print_text_block('teaching_experience_aside')
