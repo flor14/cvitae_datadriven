@@ -1,0 +1,36 @@
+Where in your CV this entry belongs,Main title of the entry,Location the entry occured,Primary institution affiliation for entry,Start date of entry (year),"End year of entry. Set to ""current"" if entry is still ongoing.","Each description column is a separate bullet point for the entry. If you need more description bullet points simply add a new column with title ""description_{4,5,..}""",,,A filter variable that is used to decide if entry is in the smaller resume. 
+section,title,loc,institution,start,end,description_1,description_2,description_3,in_resume
+education,Doctora en Biología,Universidad de Buenos Aires,"Buenos Aires, Argentina",2013,2019,Tesis: Evaluación de riesgo por uso de plaguicidas empleados en cultivos extensivos sobre la biota de los cuerpos de agua de la región pampeana,,,TRUE
+education,Licenciada en Ciencias Biológicas,Universidad de Buenos Aires,"Buenos Aires, Argentina",2007,2012,Tesis: Alteraciones de la síntesis del hemo por xenobióticos: daño hepático e implicancias metabólicas Departamento de Química Biologica. Universidad de Buenos Aires.,,,TRUE
+education,Profesora de educación media y superior en Ciencias Biológicas,Universidad de Buenos Aires,"Buenos Aires, Argentina",2013,2015,,,,
+research_positions,Investigadora Post-doctoral,Instituto Nacional de Tecnologia Agropecuaria (INTA) - CONICET,"Buenos Aires, Argentina",2019,2021,Desarrollo de herramientas informáticas para evaluar el riesgo de las aplicaciones de plaguicidas para los ecosistemas acuáticos,,,FALSE
+research_positions,Becaria doctoral,Instituto Nacional de Tecnologia Agropecuaria (INTA) - CONICET,"Buenos Aires, Argentina",2013,2019,,,,
+research_positions,Emerging Leaders in the Americas Program Fellow,Institut National de la Recherche Scientifique (INRS),"Universidad de Québec, Canadá",2016,2016,Modelado hidrológico y evaluación de riesgo,,,FALSE
+research_positions,Pasante,Laboratorio de Disturbios Metabólicos por Xenobióticos. Dpto de Química Biologica.,"Universidad de Buenos Aires, Argentina",2011,2013,,,Ran project to mathematically model the migration patterns of Mysis (honors thesis project.),FALSE
+comunidades,R-Ladies Buenos Aires,,"Buenos Aires, Argentina",2017,,Organizadora del capítulo,Nacional,,FALSE
+comunidades,R-Ladies Global,,,2018,,Moderadora del Slack Internacional,Internacional,,FALSE
+comunidades,R-Ladies Global,,,2020,,Coordinadora del programa de mentorías,Internacional,,
+comunidades,ReproHack,,,2019,,Equipo fundador y organizadora.,Internacional,,FALSE
+comunidades,R en Buenos Aires,,"Buenos Aires, Argentina",2018,2019,Organizadora del capítulo,Nacional,,FALSE
+cursos,Certificacion Tidyverse,RStudio,Remoto,2020,2020,,,,TRUE
+cursos,Instructor The Carpentries,The Carpentries,Remoto,2018,2018,,,,TRUE
+cursos,Analisis Multivariado con R,Universidad de Buenos Aires,"Buenos Aires, Argentina",2018,2018,,,,
+cursos,"Workshop ""Shiny""",RStudioConf::2018,"California, Estados Unidos",2018,2018,,,,
+cursos,Ecohidrología,Universidad Nacional de San Luis,"San Luis, Argentina",2015,,,,,
+teaching_positions,Analisis de datos con R,Universidad Nacional del Nordeste (UNNE),"Corrientes, Argentina",2020,,Served as TA for two day workshop on how to leverage Javascript in Shiny applications,Lectured on [using R2D3 package to build interactive visualizations.](http://nickstrayer.me/js4shiny_r2d3/slides),,FALSE
+teaching_positions,Taller de Introduccion al lenguaje R,Universidad Nacional de Salta,"Salta, Argentina",2019,,TA and lectured,Covered introduction to R language for statistics applications,Graduate level class,FALSE
+teaching_positions,Curso de R para cientific@s,Univesidad Nacional de San Luis,"San Luis, Argentina",2017,,Taller precongreso,,,
+teaching_positions,Carpentries Teaching practises for R users,Universidad de Palermo,"Buenos Aires, Argentina",2018,,,,,
+publicaciones,[Classifying physical activity from smartphone data](https://blogs.rstudio.com/tensorflow/posts/2018-07-17-activity-detection/),RStudio Tensorflow Blog,,2018,2018,Walk through of training a convolutional neural network to achieve state of the art recognition of activities from accelerometer data.,Contracted article.,,FALSE
+extension,Open Data and Reproducibility v2.1,CarpentryCon 2020,"(Remoto) Madison, Estados Unidos",2020,,Taller de 2 horas,,,FALSE
+extension,Hackaton,,"Universidad de Sheffield, UK",2020,,Hackaton,,,
+extension,Taller de relevamiento de anfibios,INTA Castelar,"Buenos Aires, Argentina",2017,,Parte del equipo,,,
+extension,Reproducibilidad en R: compartiendo entornos interactivos con Binder,R-Ladies Buenos Aires,"Buenos Aires, Argentina",2020,,,,,
+extension,,,,,,,,,
+by_me_press,[The Great Student Migration](https://www.nytimes.com/interactive/2016/08/26/us/college-student-migration.html?smid=pl-share),The New York Times,,2016,2016,Most shared and discussed article from the New York Times for August 2016.,,,TRUE
+academic_articles,Asymmetric Linkage Disequilibrium: Tools for Dissecting Multiallelic LD,Science of the Total Environment,,2019,2019,"Authored with Richard Single, Vanja Paunic, Mark Albrecht, and Martin Maiers.",,,TRUE
+rrhh,Programa PROCAGRA,Instituto Nacional de Tecnología Agropecuaría,"Buenos Aires, Argentina",,,Pasante: Sara Friedrichs,,,
+eventos_cyt,LatinR 2020,Universidad de la República ,Remoto por COVID,2020,,Chair,Organización de la primer hackatón de reproducibilidad computacional en español,,
+eventos_cyt,LatinR 2019,Universidad Católica de Chile,"Santiago de Chile, Chile",2019,,Comite organizador,,,
+eventos_cyt,LatinR 2018,Universidad de Palermo ,"Buenos Aires, Argentina",2018,,Comite organizador,,,
+congresos,,,,,,,,,
