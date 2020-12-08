@@ -193,7 +193,7 @@ Extensión {data-icon=book}
 --------------------------------------------------------------------------------
 
 ```{r}
-CV %<>% print_section('academic_articles')
+CV %<>% print_section('extension')
 ```
 
 Formación de Recursos Humanos {data-icon=book}
