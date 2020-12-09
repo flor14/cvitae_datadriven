@@ -166,7 +166,6 @@ CV %<>% print_text_block('cursos')
 CV %<>% print_section('cursos')
 ```
 
-
 Charlas  {data-icon=newspaper}
 --------------------------------------------------------------------------------
 ::: aside
